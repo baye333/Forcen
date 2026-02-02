@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #08386b;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+p{
+    font-size: 33px;
+    line-height: 1.9;
+    margin: 20px;
+    text-align: center;
+    font-weight: 900;
+    height: auto;
+}
+
+form{
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #b7c7ea;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset{
+    
+    margin-bottom: 15px;
+}
+ legend{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #08386b;
+ }
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 33px;
+}
+input[type="submit"]{
+    background-color: #2574c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+input[type="submit"]:hover{
+    background-color: #062a4a;
+}   
+
+input[type="text"]:focus {
+  border: 2px solid #6993d2;
+  outline: none;          /* enlève le contour bleu par défaut */
+  background-color: #f0fff0;
+}
+input[type="email"]:focus {
+  border: 2px solid #6993d2;
+  outline: none;          /* enlève le contour bleu par défaut */
+  background-color: #f0fff0;
+}
+input[type="password"]:focus {
+  border: 2px solid #6993d2;
+  outline: none;          /* enlève le contour bleu par défaut */
+  background-color: #f0fff0;
+}

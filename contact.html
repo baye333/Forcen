@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Page de Contact</h2>
+    <h3>Ceci est une page de contact. Vous pouvez me joindre à l'adresse email suivante :
+        <a href="mailto:contact@example.com">contact@example.com</a>
+    </h3>
+    <p>Vous pouvez également me suivre sur les réseaux sociaux :</p>
+    <ul>
+        <li><a href="https://www.facebook.com/example" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com/example" target="_blank">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/example" target="_blank">LinkedIn</a></li>
+
+    </ul>
+
+    <form action="traitement.php" method="post">
+        <fieldset>
+            <legend>INFORMATIONS PERSONNELLES</legend>
+        <label for="nom">Entrez votre Nom Complet: </label>
+        <input type="text" id="nom" name="nom" required placeholder="Votre nom complet"><br><br>
+
+        <label for="email">Entrez votre Email:</label>
+        <input type="email" id="email" name="email" required placeholder="ex: contact@gmail.com"><br><br>
+
+        <label for="message">Avez vous un message à faire passer:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Envoyer">
+        </fieldset>
+    </form>
+</body>
+</html>
